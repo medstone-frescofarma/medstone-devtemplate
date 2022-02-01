@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+alembic
+tenacity
+psycopg2-binary
+python-multipart
+pyjwt
+pyotp
+bcrypt
+python-dotenv
+requests
+celery[redis]
