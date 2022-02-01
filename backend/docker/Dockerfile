@@ -19,7 +19,7 @@ RUN chmod 777 /home/user
 ENV PATH "$PATH:/home/user/.local/bin"
 
 # install application dependencies
-COPY requirements.txt .
+COPY requirements/requirements.txt .
 RUN pip install --no-cache-dir --user -r requirements.txt
 
 # copy the source directory over to the docker container

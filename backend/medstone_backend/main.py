@@ -7,8 +7,8 @@ from medstone_backend.api_v1_router import api_router
 from medstone_backend.celery import celery_app
 
 app = FastAPI(
-    title="Datastem - Roster Scheduler Webserver",
-    description="The backend for Roster Scheduler",
+    title="Medstone - Webserver",
+    description="The backend",
     version="1.0",
     openapi_url="/api/openapi.json"
 )
